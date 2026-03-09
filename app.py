@@ -114,7 +114,7 @@ if "ai_outputs" not in st.session_state:
 # ══════════════════════════════════════════════════════════════
 with st.sidebar:
     # GitHub에서 로고 불러오기 (실제 repo/브랜치명으로 교체)
-    LOGO_URL = "https://raw.githubusercontent.com/Kwater-AiLab/kwater-ai/main/AI%EC%97%B0%EA%B5%AC%EC%86%8C%EB%A1%9C%EA%B3%A0_%EC%82%AC%EC%9D%B4%EB%B2%84%ED%8E%91%ED%81%AC1%EB%B2%88.png"
+    LOGO_URL = "https://github.com/newcave/2026NotionKWAI/logo.png"
     st.markdown(f"""
     <div style="text-align:center; margin-bottom:16px;">
       <img src="{LOGO_URL}" onerror="this.style.display='none'"
